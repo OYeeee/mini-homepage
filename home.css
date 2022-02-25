@@ -1,0 +1,33 @@
+
+  
+  .left-container{flex:0.35; display:flex; flex-direction:column; margin-right:22px}
+  
+  .left-container span{color:pink}
+  
+  .left-title{font-size:12px; text-align:center; padding:10px 0px}
+   
+  .left-box{background:white; border:1px solid#cdcdcd; border-radius:10px; width:195px; height:485px}
+  
+  .middle-box{background:white; border:1px solid#cdcdcd; border-radius:10px; width:495px; height:485px}
+  
+  .middle-title{display:flex; font-size:bold; padding:9px 0px}
+  
+  
+  .right-container{display:flex; flex:0.15; flex-direction:column; }
+
+  .home,.diary,.photo,.guest{background-color:#add8e6; color:white; margin:10px0; padding:5px; border:1px solid lightgrey;
+border-radius:0px 10px 10px 0px; width:100px; height:20px; line-height:25px}
+
+.menu{position:relative; top:70px;}
+
+  .news{display: flex; margin-left: 5%; margin-top:5% ; color: green;}
+  
+  .news1{display: flex; margin-left: 5%; margin-top:5% ; color: green;}
+
+  .middle-title1,.titlebold{color:#7ecee9; font-weight: bolder;}
+
+  .redbox{display: inline; background-color: rgb(247, 162, 162); color:white; border-radius: 2px; padding:3px;
+margin:2px}
+
+.bluebox{display: inline; background-color: rgb(173, 173, 241); color:white; border-radius: 2px; padding:3px;
+    margin:2px}

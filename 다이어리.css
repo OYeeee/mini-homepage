@@ -1,0 +1,19 @@
+.icon{font-size: 1.5rem;color:rgb(132, 7, 250); margin-right: 1rem;}
+.date{display: flex; border:1px solid gray; border-radius: 5px; height:3rem; margin:15px 10px 15px 40px;
+width:400px;text-align: center;padding-top: 5px; color: rgb(187, 137, 235); } 
+.day{display: flex; flex-wrap: wrap; margin-top: 5px;}
+.day div{margin: 0px 3px; height:17px}
+.date>span{color:rgb(136, 11, 253); font-weight: bolder; margin:4px 3px 2px 5px}
+button{color: rgb(165, 206, 243); background-color: aliceblue; margin-left: 20px; 
+border:0; outline:0; width:200px; margin-left: 120px; }
+ button:hover{transition: 800ms ease all; background-color:blanchedalmond}
+.diary2{margin-top: 2rem; display: flex; flex-direction: column; overflow: auto; height:350px}
+.diary2>div{border: 1px solid grey;margin: 0px 0px 20px 20px; text-align: center; width:450px}
+.diary2>div>div{color: black; text-align: left; margin: 10px 0px 0px 20px;} 
+#secret_box{margin-top: 30px; display:none}
+.diary_box{display: block;text-align: center; margin:0 auto; padding:15px 20px; background-color:white;
+color: white; border:white; border-radius: 5px;}
+.secret_button:hover{background-color:var rgb(165, 206, 243);transition: 1000ms ease all;}
+.diary_date{color:rgb(210, 227, 241); margin-bottom: 20px; font-weight: bold; font-size: 1rem;}
+.diary_box{border:1px solid rgb(210, 227, 241); border-radius: 5px; padding:20px; margin:20px 0;
+    text-align: center;}

@@ -1,0 +1,21 @@
+.guestbook-wrap{width:480px;height:450px;margin:10px; overflow:auto}
+.guest-container{background-color:rgb(245, 218, 218); padding:7px 15px; display:flex; }
+.guest-title{background-color:rgb(245, 192, 192); padding:7px 15px; display:flex}
+.guest-title{font-size: 15px;margin-right: 5px; }
+.name{font-size: 13px;margin-right: 5px;background-color:rgb(245, 192, 192);height:17px; width: 430px;}
+.date{font-size: 13px;margin-right: 5px;background-color:rgb(245, 192, 192);height:17px; width: 430px;}
+.No{font-size: 13px;margin-right: 5px;background-color:rgb(245, 192, 192);height:17px; width: 430px;}
+.guest-title.name{color: blueviolet; margin-left: 5px;}
+.guest-title{margin-right: 10px; font-size: 15px;}
+.guest-container{display: flex; height:200px}
+.guest-wrap{display: flex; height:150px; width: 430px;}
+.guest-wrap{background-color: rgb(209, 231, 231);background-size: cover; flex:0.3;margin: 30px 0 40px;}
+.image{background-color: rgb(209, 231, 231);background-size: cover; flex:0.3;margin: 30px 0 40px;}
+.guest-wrap{flex:0.7; padding:50px 15px 0px; line-height: 150%; font-size: 15px;}
+.guest-desc{flex:0.7; padding:50px 15px 0px; line-height: 150%; font-size: 15px;}
+.guestbook-image{flex:0 0 8rem; height:8rem; background-size: cover;
+display: flex; align-items:right; justify-content: right;}
+.background-1{background-image: url(무지.jfif);}
+.guestbook-image>image{width: 80%;}
+.background-2{background-image: url(라이언.jfif);}
+.background-3{background-image: url(춘식.jfif);}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>20201미니홈피</title>
+        <link rel="stylesheet" href="./static/font.css">
+        <link rel="stylesheet" href="./static/home.css">
+        <link rel="stylesheet" href="./static/layout.css">
+        <link rel="stylesheet" href="./static/사진첩.css">
+        <link rel="stylesheet" href="./static/다이어리.css">
+        <script src="https://kit.fontawesome.com/33cb97e591.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="bookcover">
+            <div class="bookdot">
+                <div class="page">
+                    <div class="left-container">
+                        <div class="left-title">Today<span> 00</span> Total:</div>
+                        <div class="left-box"> <img src="몬엑.jfif" width="180px" height="180px" > <br> MONSTAX <br><br>   <div class="dropdown">
+                            <select name="padotagi" class="padotagi"><option value="none" selected disabled hidden>파도타기</option>
+                            <option value="post"><a href="#">게시판바로가기</a></option> <option value="go"><a href="#">바로가기</a></option></select></div>
+                    </div>
+                    </div>
+                    <div class="middle-container">
+                        <div class="middle-title">
+                            <div class="middle-title1">오늘의 하루</div>     <hr>                
+                                    </div>                                   
+                                    <div class="middle-box">
+                                        <div class="middle-box2">
+                                            
+                            </div>
+                            <div class="다이어리">
+                                <div class="middle-box3">
+                                    <div class="date"> <span>2.21</span> <div class="day">
+                                        <div>1</div> <div>2</div> <div>3</div>
+                                        <div>4</div>  <div>5</div>   <div>6</div>
+                                        <div>7</div>  <div>8</div>  <div>9</div>
+                                        <div>10</div> <div>11</div>
+                                        <div>12</div> <div>13</div> <div>14</div> 
+                                        <div>15</div> <div>16</div> <div>17</div>
+                                        <div>18</div> <div>19</div> <div>20</div>
+                                        <div>21</div> <div>22</div> <div>23</div>
+                                        <div>24</div> <div>25</div> <div>26</div>
+                                        <div>27</div> <div>28</div> </div> </div> <hr> 
+                            </div>
+                                    <div class="diary2"> <div>
+                                        <div>2021.02.04</div>
+                                        <p>1일차  <br>
+                                        열심히 달려보자!!!  </p>       </div>    <br><br>
+                                        <div><div>2021.02.07</div>
+                                        <p> 썰매장 <br>
+                                        오랜만에 썰매장에 갔다 <br>
+                                    친구들이랑 3시간동안 썰매를 탔다</p> </div> <br><br> 
+                                    <div> <div>20201.02.21</div>
+                                <p> 다이어리 만들기</p></div> 
+                                    <button class="secret_button" onclick="getTextFile()">비밀일기보기</button>
+                                    <div class="diary_box" id="secret_box"></div>
+                                    <div class="diary_date">비밀일기</div>
+                                    <div class="diary_txt" id="secret_txt"></div>                          
+                            </div> </div>                                     
+                        </div>                                                      
+                    </div>
+                    <div class="right-container">
+                        <div class="menu">
+                            <div class="diary" OnClick="location.href='./다이어리.html'">다이어리</div>
+                            <div class="photo" OnClick="location.href='./사진첩.html'">사진첩 </div>
+                            <div class="guest" OnClick="location.href='./방명록.html'">방명록</div>
+                            <div class="home" OnClick="location.href='./심화6.html'">홈</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function getTextFile()
+            {var input=dacument.createElement("input");
+             input.type="file";
+            input.accept="text/plain";
+             input.onchange=function(event) 
+             {processFile(event.target.files[O]);};input.click();}
+            function processFile(file){var reader=new FileReader(); reader.readAsText(file,"utf-8");
+            reader.onload=function(){document.getElementById("secret_txt").innerText=reader.result;
+            document.getElementById("secret_box").style.display="block";};}
+        </script>
+    </body>
+</html>
+        
+
+
+
+.right-container{background-color: #cdcdcd; display:flex; flex:0.2; flex-direction:column; margin:15px 15px 15px 0px}
